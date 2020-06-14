@@ -2693,6 +2693,7 @@ input, select, textarea {
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+			color: rgb(0, 0, 0);
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2703,39 +2704,39 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgb(206, 204, 204);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgb(197, 197, 197);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgb(184, 183, 183);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgb(204, 204, 204);
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: rgb(204, 204, 204);
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			background-color: rgb(204, 204, 204);
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
+			background-color: rgb(204, 204, 204);
 		}
 
 		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgb(204, 204, 204);
 		}
 
 		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
+			background-color: rgb(204, 204, 204);
 		}
 
 		.spotlight:nth-child(10) {
@@ -2773,6 +2774,7 @@ input, select, textarea {
 					max-width: none;
 					text-align: center;
 					width: 100%;
+					color: rgb(0, 0, 0);
 				}
 
 		}
