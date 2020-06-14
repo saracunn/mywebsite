@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -41,10 +41,8 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
+							<h2>Sara Cunningham</h2>
+							<p><span id="element"></span></p>
 							<ul class="actions special">
 								<li><a href="#" class="button primary">Activate</a></li>
 							</ul>
@@ -169,6 +167,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+			<script>
+				new TypeIt("#element", {
+  					speed: 80
+				})
+  					.type("Hello!", {delay: 3300})
+  					.delete(null, {delay: 1000})
+  					.type("This is my online brand!")
+  					.go();
+			  </script>
 
 	</body>
 </html>
