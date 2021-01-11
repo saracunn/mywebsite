@@ -2119,7 +2119,7 @@ input, select, textarea {
 		max-width: 40%;
 	}
 
-		.video.left img, .video.right video {
+		.video.left video, .video.right video {
 			width: 100%;
 		}
 	
